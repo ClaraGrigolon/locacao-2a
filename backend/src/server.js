@@ -1,2 +1,2 @@
 require('dotenv').config();
-const {app, server} = require('./app.js');
+const { app, server } = require('./app.js');

@@ -1,11 +1,11 @@
 const express = require('express');
 const http = require('http');
 
-//inicializar aplicação Express
+//Inicializar Aplicação Express
 const app = express();
 const server = http.createServer(app);
 
-//inicializar conexões
+//Inicializar Conexões
 const inicializar = async () => {
     try{
         const PORT = 3000;
@@ -20,5 +20,7 @@ const inicializar = async () => {
 //executar o inicializar
 inicializar();
 
-//exportar os modelos app, server
-module.exports = {app, server};
+//exportar os modulos app, server
+module.exports = { app, server };
+
+
